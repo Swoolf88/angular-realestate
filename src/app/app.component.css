@@ -1,0 +1,58 @@
+.banner {
+    height: 100px;
+    color: white;
+  }
+
+  .navbar-brand  {
+    color: red;
+  }
+
+  .image {
+    position: absolute;
+    left: 48%;            
+  }
+
+  .topnav-right {
+    position: absolute;
+    left: 50%;            
+  }
+
+  .verticalline-1 {
+    position: absolute;
+    left: 55%; 
+  }
+
+  .hungarianflag {
+    position: absolute;
+    left: 57%; 
+  }
+
+  .hungarian {
+    position: absolute;
+    left: 60%; 
+  }
+
+  .downarrow-1 {
+    position: absolute;
+    left: 68%; 
+  }
+
+  .verticalline-2 {
+    position: absolute;
+    left: 69%; 
+  }
+
+  .user {
+    position: absolute;
+    left: 72%; 
+  }
+
+  .login {
+    position: absolute;
+    left: 74%; 
+  }
+
+  .downarrow-2 {
+    position: absolute;
+    left: 81%; 
+  }
