@@ -16,6 +16,7 @@ import { CartDetailsComponent } from './components/cart-details/cart-details.com
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BannerComponent } from './banner/banner.component';
+import { SidebarModule } from 'ng-sidebar';
 //client side paging
 //import { JwPaginationComponent } from 'jw-angular-pagination';
 
@@ -52,7 +53,8 @@ const routes: Routes = [
     HttpClientModule,
     NgbModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    SidebarModule.forRoot()
   ],
   providers: [
     BookService
